@@ -37,7 +37,6 @@ const HomeRoute = () => {
   else {
     return (
       <CenteredContainer maxWidth={500} verticalCentered={true}>
-        <h1 className={styles.hero_heading}>VialQuiz!</h1>
         <Form
           className="mb-5"
           onSubmit={(e) => {
@@ -45,6 +44,7 @@ const HomeRoute = () => {
             findGamesByShortCode(shortCode).then(setGames);
           }}
         >
+          <img src="https://i.postimg.cc/dtTTWm0k/logo512.png" alt="Logo" width="256" height="256"  />
           <FormGroup>
             <Label for="shortCode">Numero de Juego:</Label>
             <Input id="shortCode" type="number" value={shortCode} onChange={e => setShortCode(e.target.value)} />
