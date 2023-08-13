@@ -62,13 +62,13 @@ const QuestionResultsRoute = ({ parentUrl }) => {
       {question && question.order >= totalQuestionCount ?
         <Link to={`${parentUrl}/results/final`}>
           <Button color="primary">
-            Show Final Results
+            Mostrar resultados
           </Button>
         </Link>
         :
         <Link to={`${parentUrl}/questions/pending`}>
           <Button color="primary">
-            Next Question
+            Proxima pregunta
           </Button>
         </Link>
       }

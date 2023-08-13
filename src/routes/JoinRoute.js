@@ -14,13 +14,13 @@ const JoinForm = ({ playerName, setPlayerName, joinGame }) => {
       joinGame();
     }}>
       <FormGroup>
-        <Label>Your Nickname:</Label>
+        <Label>Tu nombre:</Label>
         <Input
           value={playerName}
           onChange={e => setPlayerName(e.target.value)}
         />
       </FormGroup>
-      <Button color="primary" type="submit">JOIN</Button>
+      <Button color="primary" type="submit">Unirse</Button>
     </Form>
   )
 }

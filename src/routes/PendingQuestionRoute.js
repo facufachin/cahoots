@@ -21,7 +21,7 @@ const PendingQuestionRoute = ({ parentUrl }) => {
 
   return (
     <CenteredContainer verticalCentered={true}>
-      <div className="mb-4">Next question in...</div>
+      <div className="mb-4">Proxima pregunta en:</div>
       <div className="display-1">
         {Math.ceil(timeLeft)}
       </div>

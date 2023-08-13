@@ -11,7 +11,7 @@ service cloud.firestore {
       }
 
       allow list: if isOwner(request, resource) || isShortCodeSearch(resource);
-      allow write: if isOwner(request, resource);
+      allow write: if true;
       allow get: if true;
 
       match /players/{playerId} {

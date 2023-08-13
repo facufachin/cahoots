@@ -23,7 +23,7 @@ const CreateGameRoute = props => {
   } else {
     return (
       <Container style={{maxWidth: "500px"}}>
-        <h1>Create a Game</h1>
+        <h1>Crear un juego</h1>
         <FormGroup>
           <Label for="name">Name:</Label>
           <Input id="name" name="name" value={gameName} onChange={e => setGameName(e.target.value)} />

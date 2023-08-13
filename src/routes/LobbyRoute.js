@@ -35,14 +35,14 @@ const LobbyRoute = props => {
 
   return (
     <CenteredContainer verticalCentered={true} maxWidth={800}>
-      <h1 className="mb-4">Waiting for Players to join...</h1>
+      <h1 className="mb-4">Esperando a jugadores...</h1>
       <p>
         To join, go to <a href={joinUrl} rel="noopener noreferrer" target="_blank">{joinUrl}</a> and enter the game code <strong>{game ? game.shortCode : "___"}</strong>
       </p>
       <PlayerList players={players} />
       <div className="mt-4">
         <Link to={`/host/${gameId}/questions/pending`}>
-          <Button color="primary">Start</Button>
+          <Button color="primary">Empezar</Button>
         </Link>
       </div>
     </CenteredContainer>

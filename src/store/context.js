@@ -3,15 +3,16 @@ import firebase from "firebase/app";
 import "firebase/firestore";
 
 var firebaseConfig = {
-  apiKey: "AIzaSyC1QPvHcz3Y7gAsUUNN6sTy9sEgvtE9tRA",
-  authDomain: "cahoots-37a93.firebaseapp.com",
-  databaseURL: "https://cahoots-37a93.firebaseio.com",
-  projectId: "cahoots-37a93",
-  storageBucket: "cahoots-37a93.appspot.com",
-  messagingSenderId: "295846162316",
-  appId: "1:295846162316:web:cb3283790c16ffa536b0a9",
-  measurementId: "G-L8SFBD43DB"
+  databaseURL: "https://vialquiz-ea6a8.southamerica-east1.firebasedatabase.app",
+  apiKey: "AIzaSyCVQuIPNV6lxmIXs2XHWUTzPkleI2Qo_o8",
+  authDomain: "vialquiz-ea6a8.firebaseapp.com",
+  projectId: "vialquiz-ea6a8",
+  storageBucket: "vialquiz-ea6a8.appspot.com",
+  messagingSenderId: "927740651049",
+  appId: "1:927740651049:web:3c8f3912f9c20d859e5e38",
+  measurementId: "G-5G5HCQLWSF"
 };
+
 firebase.initializeApp(firebaseConfig);
 
 const StoreContext = React.createContext(firebase.firestore());

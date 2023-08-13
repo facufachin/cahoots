@@ -31,7 +31,7 @@ const GameDetailsRoute = props => {
         {questions.length > 0
           ? <Link to={`/lobby/${gameId}`}>
               <Button color="success" size="lg">
-                Start Game
+                Empezar juego
               </Button>
             </Link>
           : null
@@ -43,7 +43,7 @@ const GameDetailsRoute = props => {
               .then(newQn => setQuestions(questions.concat([newQn])))
           }}
         >
-          Add Question
+          Agregar pregunta
         </Button>
       </CenteredContainer>
     );

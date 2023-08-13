@@ -63,14 +63,14 @@ const PlayerRoute = () => {
     case 'pendingQuestion':
       return (
         <CenteredContainer maxWidth={500} verticalCentered={true}>
-          Next question coming up...
+          Proxima pregunta cargando...
         </CenteredContainer>
       )
     case 'showingQuestion':
       if (answer) {
         return (
           <CenteredContainer maxWidth={500} verticalCentered={true}>
-            You chose {answer.choice}!
+            Elegiste {answer.choice}!
           </CenteredContainer>
         )
       }
@@ -79,8 +79,8 @@ const PlayerRoute = () => {
         <CenteredContainer maxWidth={500} verticalCentered={true}>
           <Row className="mb-4">
             <Col sm={12}>
-              <h2>Hi {playerName}!</h2>
-              <h3>Choose your answer:</h3>
+              <h2>Hola {playerName}!</h2>
+              <h3>Elige tu respuesta:</h3>
             </Col>
           </Row>
           <AnswerGrid recordAnswer={recordAnswer}/>
@@ -97,7 +97,7 @@ const PlayerRoute = () => {
     default:
       return (
         <CenteredContainer maxWidth={500} verticalCentered={true}>
-          Waiting for game to start...
+          Esperando a que empieze el juego
         </CenteredContainer>
       )
   }

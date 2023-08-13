@@ -13,7 +13,7 @@ const ShowResultsBtn = ({ isVisible, linkTo }) => {
   return isVisible ?
     (
       <Link to={linkTo}>
-        <Button color="primary">Show Result</Button>
+        <Button color="primary">Mostrar resultados</Button>
       </Link>
     ) : null
 }
@@ -35,7 +35,7 @@ const CurrentQuestionRoute = ({ parentUrl }) => {
       {question ?
           <div>
             <Question question={question} />
-            <div className="mt-4">Time left:</div>
+            <div className="mt-4">Tiempo restante:</div>
             <div className="display-1">
               {Math.ceil(timeLeft)}
             </div>
@@ -44,7 +44,7 @@ const CurrentQuestionRoute = ({ parentUrl }) => {
               linkTo={`${parentUrl}/results/${question.id}`}
             />
           </div>
-        : <div>Loading...</div>
+        : <div>cargando...</div>
       }
     </CenteredContainer>
   )

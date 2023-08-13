@@ -17,7 +17,7 @@ const MyGamesRoute = () => {
   } else {
     return (
       <Container style={{maxWidth: "500px"}}>
-        <h1>Your Games</h1>
+        <h1>Tus juegos</h1>
         <ListGroup>
           {
             games.map(game => (
@@ -37,7 +37,7 @@ const MyGamesRoute = () => {
             color="info"
             action
           >
-            Create Game
+            Crear Juego
           </ListGroupItem>
         </ListGroup>
       </Container>

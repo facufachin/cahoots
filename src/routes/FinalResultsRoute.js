@@ -53,7 +53,7 @@ const FinalResultsRoute = props => {
   return (
     <CenteredContainer verticalCentered={true} maxWidth={500}>
       <h1>
-        Final Results
+        Resultados finales
       </h1>
       <Leaderboard results={results} />
     </CenteredContainer>
