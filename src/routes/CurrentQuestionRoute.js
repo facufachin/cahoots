@@ -7,7 +7,7 @@ import Question from '../view_components/Question'
 import { startTimer } from '../utils/calculateTimeLeft';
 import CenteredContainer from '../view_components/CenteredContainer';
 
-const SECONDS_TO_QUESTION = 10;
+const SECONDS_TO_QUESTION = 15;
 
 const ShowResultsBtn = ({ isVisible, linkTo }) => {
   return isVisible ?
@@ -35,7 +35,7 @@ const CurrentQuestionRoute = ({ parentUrl }) => {
       {question ?
           <div>
             <Question question={question} />
-            <div className="mt-4">Tiempo restante:</div>
+            <div className="mt-4">Tiempo restante:aa</div>
             <div className="display-1">
               {Math.ceil(timeLeft)}
             </div>
