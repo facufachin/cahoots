@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0568a27e124e505e9052756ea769f261",
+    "revision": "99c85d2a6c09095170e8749549f17655",
     "url": "/cahoots/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cahoots/static/css/2.47e06e2e.chunk.css"
   },
   {
-    "revision": "ce8aa50482cbdd5ce177",
+    "revision": "2aa23529c4a379b3cb30",
     "url": "/cahoots/static/css/main.aa7cdbea.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cahoots/static/js/2.39077985.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ce8aa50482cbdd5ce177",
-    "url": "/cahoots/static/js/main.4a5a15f0.chunk.js"
+    "revision": "2aa23529c4a379b3cb30",
+    "url": "/cahoots/static/js/main.161e4bb6.chunk.js"
   },
   {
     "revision": "3e8f9c616b6339a39a3b",
