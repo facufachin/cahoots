@@ -44,7 +44,7 @@ const HomeRoute = () => {
             findGamesByShortCode(shortCode).then(setGames);
           }}
         >
-          <img src="https://i.postimg.cc/dtTTWm0k/logo512.png" alt="Logo" width="256" height="256"  />
+          <img src="https://github.com/facufachin/cahoots/blob/master/public/logo512.png?raw=true" alt="Logo" width="256" height="256"  />
           <FormGroup>
             <Label for="shortCode">Numero de Juego:</Label>
             <Input id="shortCode" type="number" value={shortCode} onChange={e => setShortCode(e.target.value)} />
